@@ -1,0 +1,27 @@
+1. 프로젝트 패키지 구조도
+      # view 패키지
+      	- AdminInfoView 클래스
+      	- MainPage 클래스
+      	- GameView 클래스
+      # controller 패키지 
+      	- AdminInfoController 클래스 
+      	- GameController 클래스 
+      # model 패키지
+         # dto 패키지
+            - AdminInfoDto 클래스 
+            - GameDto 클래스 
+         # dao 패키지 
+            - AdminInfoDao 클래스
+            - Dao 클래스( DB)
+            - GameDao 클래스  
+      - AppStart 클래스 			: 시작
+      - useSQL.sql 파일 
+      - 설계메모파일.txt
+   
+   2. MainPage 클래스 , MemberController 클래스 => 싱글톤 선언 
+   3. AppStart --> Main 
+   
+2. 규칙 
+	# 취합시간 :	매일 오후 3시 [팀플 시간 시작때]
+	# 중간점검 : 	매일 오후 5시 반 ( 진행사항/ 애로사항...)
+	# 주석	: 주석은 무조건 달기 가능한 자세히  
